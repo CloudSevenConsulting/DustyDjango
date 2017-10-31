@@ -1,0 +1,24 @@
+branch-defaults:
+  default:
+    environment: null
+    group_suffix: null
+  master:
+    environment: null
+environment-defaults:
+  AtamoDemo-env:
+    branch: null
+    repository: null
+global:
+  application_name: ATAMO Demo
+  branch: null
+  default_ec2_keyname: mykeypair
+  default_platform: Python 2.7
+  default_region: ap-southeast-1
+  include_git_submodules: true
+  instance_profile: null
+  platform_name: null
+  platform_version: null
+  profile: null
+  repository: null
+  sc: git
+  workspace_type: Application
